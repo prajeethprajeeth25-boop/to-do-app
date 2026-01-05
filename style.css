@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    margin: 0;
+}
+
+.login-body {
+    background: linear-gradient(to right,#141e30,#243b55);
+}
+
+.login-box {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    margin: 150px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.top-bar {
+    background: blue;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls {
+    background: white;
+    padding: 15px;
+}
+
+li {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
